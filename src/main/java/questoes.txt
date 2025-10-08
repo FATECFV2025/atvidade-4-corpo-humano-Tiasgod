@@ -1,0 +1,10 @@
+QUESTÕES SOLICITADAS:
+   
+1 - Ocorrência: Erro de compilação ("massa has private access in CorpoHumano")
+Conclusão: O atributo é privado, então não pode ser acessado diretamente fora da classe.
+         
+2 Ocorrência: O código compila e permite alterar o valor diretamente.
+Conclusão: Tornando público, o atributo perde o encapsulamento, podendo ser alterado sem controle.
+         
+3 - Ocorrência: Erro ao tentar usar c1.setVolume(), pois o método é privado.
+Conclusão: Métodos privados só podem ser acessados dentro da própria classe.
